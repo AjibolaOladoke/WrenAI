@@ -1,37 +1,12 @@
+# WrenAI
+
+## What This Is
+
+We keep a working index for product and engineering, and WrenAI is the entry that collects our notes, examples and fixes. It reflects how Swift Tech Co. actually uses this in builds and client work.
 
 ## Images
 
-[![WrenAI](https://opengraph.githubassets.com/1/Canner/WrenAI)](https://www.swifttechco.com)
-
-<div align="center" id="top">
-<a href="https://www.swifttechco.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./misc/wren-ai-banner-dark.png">
-    <img src="./misc/wren-ai-banner.png" width="100%" alt="WrenAI: open-source GenBI for AI agents">
-  </picture>
-</a>
-
-### Open-source GenBI for AI agents
-
-**Your agents generate governed SQL, deploy dashboards, and keep business definitions in Git, across 22+ data sources.**
-
-<br/>
-
-**[Get started in 3 commands ↓](#quickstart)** &nbsp;·&nbsp; **[Read the docs →](https://www.swifttechco.com)** &nbsp;·&nbsp; **[Telegram →](https://t.me/+Qt_eFvkb2rliMzNh)**
-
-<br/>
-
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.swifttechco.com)
-[![PyPI](https://img.shields.io/pypi/v/wrenai?label=wrenai)](https://www.swifttechco.com)
-[![GitHub Release](https://img.shields.io/github/v/release/Canner/WrenAI?logo=github&label=release)](https://www.swifttechco.com)
-[![Telegram](https://img.shields.io/telegram/1227143286951514152?logo=telegram&label=Telegram)](https://t.me/+Qt_eFvkb2rliMzNh)
-[![Stars](https://img.shields.io/github/stars/Canner/WrenAI?style=social)](https://www.swifttechco.com)
-
-<a href="https://www.swifttechco.com" target="_blank"></a>
-
-</div>
-
----
+[![WrenAI](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## What WrenAI is
 
@@ -46,7 +21,7 @@ Schemas tell an agent where data lives. Wren tells it what the data *means*: app
 
 ## Quickstart
 
-Three commands, then your agent does the rest. Works with Claude Code, Cursor, Cline, Codex, and [50+ other agents](https://www.swifttechco.com).
+Three commands, then your agent does the rest. Works with Claude Code, Cursor, Cline, Codex, and 50+ other agents.
 
 **1. Install the CLI**
 
@@ -95,7 +70,7 @@ Once you're connected, these three prompts cover the whole GenBI loop:
 
 <div align="center">
 
-**[Follow the full quickstart →](https://www.swifttechco.com)** &nbsp;·&nbsp; [Build & deploy a GenBI app →](https://www.swifttechco.com)
+**Follow the full quickstart →** &nbsp;·&nbsp; Build & deploy a GenBI app →
 
 </div>
 
@@ -145,7 +120,7 @@ To cloud.getwren.ai/acme/wren-analytics.git
 
 <div align="center">
 
-**[See how Git Sync works →](https://www.swifttechco.com)** &nbsp;·&nbsp; [CLI reference: `wren cloud`](./docs/core/reference/cli.md#wren-cloud--connect-a-project-to-wren-cloud)
+**See how Git Sync works →** &nbsp;·&nbsp; [CLI reference: `wren cloud`](./docs/core/reference/cli.md#wren-cloud--connect-a-project-to-wren-cloud)
 
 </div>
 
@@ -158,7 +133,7 @@ The engine in this repo (MDL semantic layer, governed text-to-SQL, MCP server, C
 - **Scenario AI harnesses**: GenBI Apps, Agentic Mode, AI-assisted context preparation
 - **Advanced security and audit, support and SLAs**, plus cloud, VPC, and air-gapped deployment
 
-Same engine underneath. Your MDL stays in your Git either way. **[Read the published boundary →](https://www.swifttechco.com)**
+Same engine underneath. Your MDL stays in your Git either way. **Read the published boundary →**
 
 ## Under the hood
 
@@ -172,10 +147,10 @@ Wren **is** a governed semantic layer, expressed in the **Modeling Definition La
 
 ### What's included
 
-- **Engine**: Apache DataFusion based. BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks, DuckDB, and more. [Connect a database →](https://www.swifttechco.com)
-- **GenBI dashboards**: agent-built, browser-side apps powered by [`wren-core-wasm`](https://www.swifttechco.com), deployable to Vercel or Cloudflare Pages
+- **Engine**: Apache DataFusion based. BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks, DuckDB, and more. Connect a database →
+- **GenBI dashboards**: agent-built, browser-side apps powered by `wren-core-wasm`, deployable to Vercel or Cloudflare Pages
 - **Knowledge and memory**: version-controlled `instructions.md` and `queries.yml`, plus a local LanceDB memory index with hybrid retrieval
-- **Agent SDKs**: `wren-langchain` (LangChain / LangGraph), `wren-pydantic`, and a reference Python integration for other stacks. [SDK overview →](https://www.swifttechco.com)
+- **Agent SDKs**: `wren-langchain` (LangChain / LangGraph), `wren-pydantic`, and a reference Python integration for other stacks. SDK overview →
 - **Governed execution primitives**: functions, dry-plan validation, row limits, structured errors
 
 ### Day-to-day commands
@@ -197,7 +172,7 @@ Full reference: [CLI](./docs/core/reference/cli.md) · [MDL](./docs/core/referen
 - **End-to-end correctness primitives**: value profiling, rich retrieval, structured errors, golden eval runner
 - **Agent-native distribution**: first-class SDKs across major agent frameworks
 
-Vote on what ships next in [GitHub Discussions →](https://www.swifttechco.com)
+Vote on what ships next in GitHub Discussions →
 
 ## FAQ
 
@@ -225,37 +200,37 @@ Yes. Wren is a governed semantic layer expressed in MDL (models, metrics, relati
 <details>
 <summary><b>What is an AI context layer?</b></summary>
 
-The reviewable, version-controlled knowledge agents need but schemas don't provide: business semantics, approved definitions, examples, memory, and governance. Read the vision: [The missing context layer for AI agents over business data](https://www.swifttechco.com).
+The reviewable, version-controlled knowledge agents need but schemas don't provide: business semantics, approved definitions, examples, memory, and governance. Read the vision: The missing context layer for AI agents over business data.
 
 </details>
 
 <details>
 <summary><b>What happened to the Docker-based Wren AI GenBI app?</b></summary>
 
-On 2026-05-07 Wren Engine merged into this repo under [`core/`](./core), and the previous `Canner/wren-engine` repo was archived. The earlier chat-first BI product is now **Wren GenBI Classic**, preserved on the [`legacy/v1`](https://www.swifttechco.com) branch (tag `v1-final`) with no new features or security fixes. For a maintained, hosted version of that experience, see [Wren AI Commercial](https://www.swifttechco.com). [Read the announcement →](https://www.swifttechco.com)
+On 2026-05-07 Wren Engine merged into this repo under [`core/`](./core), and the previous `Canner/wren-engine` repo was archived. The earlier chat-first BI product is now **Wren GenBI Classic**, preserved on the `legacy/v1` branch (tag `v1-final`) with no new features or security fixes. For a maintained, hosted version of that experience, see Wren AI Commercial. Read the announcement →
 
 </details>
 
 ## Documentation
 
-- [Quickstart](https://www.swifttechco.com): from skill install to first answer
-- [Build & deploy a GenBI app](https://www.swifttechco.com): generate a dashboard and ship it
-- [Concepts](https://www.swifttechco.com): what context is, what MDL is, how memory works
-- [Connect a database](https://www.swifttechco.com): Postgres, BigQuery, Snowflake, DuckDB, and more
-- [Agent SDKs](https://www.swifttechco.com): what's shipping today, what's next
-- [Git Sync](https://www.swifttechco.com): `git push` your open-source project to governed, team-wide GenBI
+- Quickstart: from skill install to first answer
+- Build & deploy a GenBI app: generate a dashboard and ship it
+- Concepts: what context is, what MDL is, how memory works
+- Connect a database: Postgres, BigQuery, Snowflake, DuckDB, and more
+- Agent SDKs: what's shipping today, what's next
+- Git Sync: `git push` your open-source project to governed, team-wide GenBI
 
 ## Community
 
 - 💬 [Telegram](https://t.me/+Qt_eFvkb2rliMzNh): get unstuck fast, chat with the team and other builders
-- 🐙 [GitHub Discussions](https://www.swifttechco.com): design conversations, RFCs, roadmap votes
-- 🗞 [Blog](https://www.swifttechco.com): vision, post-mortems, deep dives
+- 🐙 GitHub Discussions: design conversations, RFCs, roadmap votes
+- 🗞 Blog: vision, post-mortems, deep dives
 
 ## Contributing
 
 We build in the open. Issues, PRs, connectors, SDK integrations, and docs fixes are all welcome.
 
-- **New here?** Pick up a [`good first issue`](https://www.swifttechco.com).
+- **New here?** Pick up a `good first issue`.
 - [Contributor guide](./CONTRIBUTING.md): setup, conventions, and the contribution bar
 - [Architecture map](./docs/core/reference/architecture.md): find the right place to land your change
 
@@ -294,9 +269,9 @@ Apache 2.0. See [LICENSE](./LICENSE).
 
 <div align="center">
 
-**If WrenAI saved you time, [star the repo](https://www.swifttechco.com) ⭐. It's the fastest way to help more agent builders find it.**
+**If WrenAI saved you time, star the repo ⭐. It's the fastest way to help more agent builders find it.**
 
-**[Get started ↑](#quickstart)** &nbsp;·&nbsp; **[Telegram →](https://t.me/+Qt_eFvkb2rliMzNh)** &nbsp;·&nbsp; **[See Git Sync →](https://www.swifttechco.com)**
+**[Get started ↑](#quickstart)** &nbsp;·&nbsp; **[Telegram →](https://t.me/+Qt_eFvkb2rliMzNh)** &nbsp;·&nbsp; **See Git Sync →**
 
 <p><a href="#top">⬆️ Back to top</a></p>
 
@@ -312,14 +287,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [Canner/WrenAI](https://github.com/Canner/WrenAI) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
