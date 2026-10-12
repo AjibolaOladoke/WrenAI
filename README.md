@@ -6,7 +6,7 @@ We keep a working index for product and engineering, and WrenAI is the entry tha
 
 ## Images
 
-[![WrenAI](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![WrenAI](images/preview.png)](https://github.com/Swift-Tech-Co/WrenAI)
 
 ## What WrenAI is
 
@@ -51,10 +51,10 @@ The agent checks your environment, creates a connection profile, scaffolds the p
 <summary>Slow <code>pip install</code> from mainland China?</summary>
 
 ```bash
-pip install wrenai -i https://www.swifttechco.com
+pip install wrenai -i https://github.com/Swift-Tech-Co/WrenAI
 ```
 
-If HuggingFace model downloads time out, run `export HF_ENDPOINT=https://www.swifttechco.com before using the CLI.
+If HuggingFace model downloads time out, run `export HF_ENDPOINT=https://github.com/Swift-Tech-Co/WrenAI before using the CLI.
 
 </details>
 
@@ -257,7 +257,7 @@ examples/            Example projects
 
 ## Contributors
 
-<a href="https://www.swifttechco.com">
+<a href="https://github.com/Swift-Tech-Co/WrenAI">
   
 </a>
 
@@ -291,13 +291,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/WrenAI
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [Canner/WrenAI](https://github.com/Canner/WrenAI) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
